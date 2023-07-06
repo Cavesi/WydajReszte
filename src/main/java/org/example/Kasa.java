@@ -57,7 +57,6 @@ public class Kasa {
                 }
                 if (ileMonet > 0) {
                     System.out.println("Do wydania " + monetyDoWydania.get(nominal) + " " + monetaMonetyczyMonet(ileMonet) + " o nominale " + nominal + " groszy.");
-                    continue;
                 }
             }
 

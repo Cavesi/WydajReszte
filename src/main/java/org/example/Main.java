@@ -14,7 +14,7 @@ public class Main {
             odpowiedz = scanner.nextLine();
             odpowiedz = odpowiedz.replace(".", "");
             odpowiedz = odpowiedz.replace(",", "");
-            resztaDoWydania = Integer.parseInt(odpowiedz);;
+            resztaDoWydania = Integer.parseInt(odpowiedz);
             kasa.wydajReszte(resztaDoWydania);
         }
     }

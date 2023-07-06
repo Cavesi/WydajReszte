@@ -52,7 +52,7 @@ public class Kasa {
                 int ileMonet = monetyDoWydania.getOrDefault(nominal, 0);
 
                 if (nominal >= 100 && ileMonet > 0) {
-                    System.out.println("Do wydania " + monetyDoWydania.get(nominal) + " " + monetaMonetyczyMonet(ileMonet) + " o nominale " + nominal/100 + " zł.");
+                    System.out.println("Do wydania " + monetyDoWydania.get(nominal) + " " + monetaMonetyczyMonet(ileMonet) + " o nominale " + nominal / 100 + " zł.");
                     continue;
                 }
                 if (ileMonet > 0) {
@@ -69,7 +69,7 @@ public class Kasa {
         if (monety == 1) {
             return "moneta";
         }
-        if (monety % 10 == 2 || monety % 10 == 3 || monety % 10 == 4){
+        if (monety % 10 == 2 || monety % 10 == 3 || monety % 10 == 4) {
             return "monety";
         }
         return "monet";
